@@ -1,0 +1,469 @@
+/* CSS Document */
+/*
+=========================================
+    Created on   : 15/09/2017.
+    Theme Name   : Phototime.
+    Description  : Phototime Related- Responsive Creative Agency Template.
+    Version      : 1.0.
+    Author       : Md Alam Shekh.
+    Developed by : Md Alam Shekh.
+=========================================
+*/
+
+/*
+=========================================
+            TABLE OF CONTENTS
+=========================================			  
+*/
+
+/*
+========================================
+1. Typography 
+2. Header-Area  
+3. Getting-Started   
+4. Design-Area 
+5. Community-Area  
+6. Subscribe-Area  
+7. Download-Area  
+8.Footet-Area   
+9. Media-Quarey  
+========================================  
+*/
+ 
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 14px;
+}
+.container {
+	max-width: 960px;
+	width: 80%;
+	margin: 0 auto;
+}
+/*
+=========================================
+1. Typography 
+=========================================
+*/
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+ 
+h1 {
+	font-size: 32px;
+}
+h2 {
+    font-size: 30px;
+	text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600;
+	margin-bottom: 0;
+}
+h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+h4 {
+    color: #30bae7;
+    font-weight: 400;
+    margin: 0;
+}
+ 
+/*
+=========================================
+2. Header -Area
+=========================================
+*/
+
+.header-area {
+	overflow: hidden;
+	text-align: center;
+	background-color: #87509c;
+	color: #FFFFFF;
+}
+
+.header-logo {
+	width: 30%;
+	float: left;
+	overflow: hidden;
+}
+
+.header-menu ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+	padding-top: 25px;
+	list-style: none;
+}
+.header-menu ul li {
+	float: left;
+	margin-left: 10px;
+}
+.header-menu ul li a {
+    display: block;
+    text-transform: uppercase;
+    padding: 7px 12px;
+    border-radius: 4px;
+   
+}
+.header-menu ul .active a,
+.header-menu ul li:hover a {
+	background: #643a79;
+}
+  
+.header-bottom {
+    overflow: hidden;
+    width: 100%;
+    padding: 80px 0;
+}
+.btn {
+    padding: 15px 55px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.header-area .btn {
+	display: inline-block;
+	background: #eb7d4b;
+	border-bottom: 3px solid #c86a40;
+	margin: 20px 0 40px;
+}
+.header-area .btn:hover {
+ 	background: #4b4b4b;
+	border-bottom: 3px solid #2d2d2d;
+}
+ /*
+=========================================
+3. Services Area
+=========================================
+*/
+.services-section {
+	overflow: hidden;
+	text-align: center;
+	background: #17c2a4;
+	padding: 80px 0;
+	color: #FFFFFF;
+} 
+.header-section p {
+	text-align: center;
+} 
+.header-section hr {
+	width: 70px;
+}
+.services-section .header-section hr {
+	border: 2px solid #15A58E;
+}
+.col-1-4 {
+	width: 23%;
+	float: left;
+	overflow: hidden;
+	margin: 0 1%;
+	padding-top: 45px;
+}
+ 
+.services-image img {
+    width: 95px;
+    height: 120px;
+}
+
+/*
+=========================================
+4. Team-Section  Area
+=========================================
+*/
+.team-section {
+	overflow: hidden;
+	background: #e7f1f8;
+	padding: 80px 0;
+	text-align: center;
+	color: #3c4761;
+ }
+.team-section .header-section hr {
+	border: 2px solid #c8d9e5;
+}
+.team-bottom img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+.team-bottom p {
+	color: #3c4761;
+}
+
+.team-bottom h4 {
+    color: #30bae7;
+} 
+ 
+.father {
+	position: relative;
+	overflow: hidden;
+}
+.son {
+	font-size: 20px;
+	color: blue;
+	position: absolute;
+	top: -100px;
+	left: 40px;
+	transition: .8s;
+}
+.father:hover .son {
+	transform: rotate(360deg); /*-- ghuranor jonne ata use korechi --*/
+	font-size: 24px;
+	color: blue;
+	position: absolute;
+	top: 60%;
+	left: 40px;
+}
+.social-media ul {
+	padding: 0;
+	margin:	0;
+	list-style: none;
+}
+.social-media ul li {
+	display: inline;
+	padding: 0 4px;
+} 
+ 
+.social-media ul li a {
+	display: inline-block;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color:#bdd1df;
+	color: #FFFFFF;
+	transition: .3s;
+} 
+.social-media ul li a i {
+    display: inline-block;
+    padding-top: 5px;
+    font-size: 10px;
+}
+.social-media ul li a:hover {
+	transform: rotate(120deg);
+	background-color: blue;
+	color: #f57b71;
+} 
+ /*
+=========================================
+5.  Skills Area  
+=========================================
+*/
+
+.skills-section {
+	overflow: hidden;
+	padding: 80px 0;
+	background: #fff; 
+}
+ .skills-section hr {
+	border: 2px solid #dfe8ed;
+ }	
+/*
+=========================================
+6. Portfolio Area  
+=========================================
+*/
+
+.portfolio-section {
+	overflow: hidden;
+	text-align: center;
+	padding: 80px 0;
+	background: #ffdd99;
+	color: #393939;
+}
+.portfolio-section hr {
+	border: 2px solid #e5c37f;
+}
+ 
+.portfolio-menu ul li {
+	display: inline;
+	list-style: none;
+}
+.portfolio-menu ul li a {
+	display: inline-block;
+    text-transform: uppercase;
+    padding: 7px 12px;
+    border-radius: 4px;
+	background-color: #ebc985;
+	color: #393939;
+}
+.portfolio-menu ul li:hover a {
+	color: blue;
+}
+.portfolio-menu ul li:hover a,
+.portfolio-menu ul .active a {
+	background-color: #FFF;
+}
+.portfolio-menu ul .active a {
+	background-color: #FFF;
+}
+.portfolio-bottom h4 {
+    color: #393939;
+}
+.portfolio-image img {
+	width: 100%;  
+}
+.col-1-2 {
+	width: 47%;
+	float: left;
+	overflow: hidden;
+	margin-right: 6%;
+}
+.col-1-2:nth-child(2n) {
+	margin-right: 0;
+}
+.portfolio-image {
+    margin: 30px 0;
+}
+.portfolio-bottom .btn {
+	display: inline-block;
+	background: #17c2a4;
+	border-bottom: 3px solid #14a58c;
+	margin: 20px 0 40px;
+}
+.portfolio-bottom .btn:hover {
+	background: #e5c689;
+	border-bottom: 3px solid #f2c66e;
+}
+
+/*
+=========================================
+7. About  Area  
+=========================================
+*/
+.about-section  {
+	overflow: hidden;
+	padding: 80px 0;  
+	background:#d74680;
+	color: #FFFFFF;
+}
+.about-section hr {
+	border: 2px solid #b73c66;
+}
+.header-section p {
+    text-align: center;
+}
+.aboutu-bottom {
+    margin-top: 50px;
+}
+.clients-picture {
+	width: 25%;
+	float: left;
+	overflow: hidden;
+	margin-right: 5%;
+}
+.clients-command {
+	width: 70%;
+	overflow: hidden;
+}
+
+.clients-picture img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.clients-command p {
+	margin-top: 0;
+	font-style: italic;
+}
+.clients-command h4 {
+	color: #ffdd99;
+}
+.aboutus-image {
+    margin-bottom: 70px;
+}
+/*
+=========================================
+8. Contact  Area  
+=========================================
+*/
+.contact-section {
+	overflow: hidden;
+	padding: 80px 0;  
+	text-align: center;
+	background:#3c5499;
+	color: #FFFFFF;
+} 
+.contact-section hr {
+	border: 2px solid #273a71;
+}
+.contact-section .container {
+	width: 60%;
+}
+.contact-form input[type="text"] {
+	margin-right: 4%;
+	float: left;
+}
+ 
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+	width: 48%;
+	display: block;
+	box-sizing: border-box;
+	background: #273a71;
+	color: #FFFFFF;
+	border: none;
+	padding: 2%;
+}
+.contact-form textarea {
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 20px 0;
+	background: #273a71;
+	color: #FFFFFF;
+	border: none;
+	padding: 2%;
+	min-height: 150px;
+} 
+.contact-section .btn {
+	display: inline-block;
+	background: #17c2a4;
+	border-bottom: 3px solid #30bae7;
+	margin: 20px 0 40px;
+}
+.contact-section .btn:hover {
+	background: #2980b9;
+	border-bottom: 3px solid #299ec5;
+}
+/*
+=========================================
+9. Footer-Section 
+=========================================
+*/
+.footer-section {
+	overflow: hidden;
+	background: #344b8e;
+	padding: 40px 0;  
+	text-align: center;
+	color: #FFFFFF;
+}
+ 
+.footer-menu ul {
+	padding: 0;
+	margin:0;
+	list-style: none;
+}
+.footer-menu ul li {
+	display: inline;
+	padding: 0 18px;
+	
+}
+.footer-menu ul li a {
+	text-transform: capitalize;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 600;
+}
+.footer-menu ul li:hover a {
+	color:#30BAE8;
+}
+.footer-menu ul .current a {
+	color:#30BAE8;
+}
